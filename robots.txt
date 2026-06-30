@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Bloquear áreas privadas o de desarrollo
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Permitir recursos estáticos (no bloquear CSS/JS/IMG)
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+Sitemap: https://sagaz.cloud/sitemap.xml
